@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\trudo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\trudo\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ],
+
+  "Serilog": {
+    "MinimumLevel": "Verbose",
+    "WriteTo": [
+      {
+        "Name": "File",
+        "Args": {
+          "path": "logs\\log-.txt",
+          "rollingInterval": "Day"
+        }
+      },
+      {
+        "Name": "Console",
+        "Args": { "outputTemplate": "[{Timestamp:yyyy-MM-dd HH:mm:ss} {Level:u3}] {Mes-sage:lj}{NewLine}{Exception}" }
+      }
+    ]
+  },
+  "SomeValue": "произвольное значение"
+
+
+}
